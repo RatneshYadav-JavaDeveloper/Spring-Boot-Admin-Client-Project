@@ -1,4 +1,0 @@
-server.port=8081
-spring.boot.admin.client.url=http://localhost:8080
-spring.boot.admin.client.instance.name=User-Microservices
-management.endpoints.web.exposure.include=*

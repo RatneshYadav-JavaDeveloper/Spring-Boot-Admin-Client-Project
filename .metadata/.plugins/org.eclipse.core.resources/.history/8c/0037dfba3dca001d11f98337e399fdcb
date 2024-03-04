@@ -1,3 +1,0 @@
-spring.boot.admin.client.url=http://localhost:8080
-spring.boot.admin.client.instance.name=RealTimeAdminServer
-management.endpoints.web.exposure.include=*

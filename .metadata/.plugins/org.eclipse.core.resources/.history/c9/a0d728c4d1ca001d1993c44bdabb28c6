@@ -1,7 +1,0 @@
-server.port=8003
-
-#REGISTERED MICROSERVICES 
-spring.boot.admin.client.url=http://localhost:8080
-
-#Display Name
-spring.boot.admin.client.instance.name=Users-Profile-Microservices
