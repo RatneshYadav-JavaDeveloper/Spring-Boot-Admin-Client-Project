@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.usersuniqueidentification.UsersUniqueIdentificationMicroServices.repo;
+
+/**
+ * @author Ratnesh
+ *
+ */
+public interface UsersUniqueIdentificationRepo {
+
+}

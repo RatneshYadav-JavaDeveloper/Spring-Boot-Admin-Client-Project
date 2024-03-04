@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.userscontact.model.request;
+
+/**
+ * @author Ratnesh
+ *
+ */
+public class UsersContactRequestWrapper {
+
+}

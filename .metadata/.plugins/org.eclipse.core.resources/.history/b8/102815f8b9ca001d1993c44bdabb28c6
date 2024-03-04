@@ -1,0 +1,37 @@
+package com.userservice.entities;
+
+import java.util.Date;
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import jakarta.persistence.Transient;
+
+@Entity
+@Table(name ="users" )
+public class Users {
+
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private Long id;
+	@Column(name = "user_name")
+	private String userName;
+	@Column(name = "date_time")
+	private Date dateTime;
+	@Column(name = "status")
+	private String status;
+	@Column(name = "mobile_no")
+	private String mobileNo;
+	@Transient
+	private String usersProfile;
+	@Transient
+	private String usersAadharCardNumber;
+	@Transient
+	private String usersContactAddress;
+	
+	
+	
+}

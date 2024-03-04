@@ -1,0 +1,5 @@
+package com.userservice.model.request;
+
+public class UsersRequestWrapper {
+
+}

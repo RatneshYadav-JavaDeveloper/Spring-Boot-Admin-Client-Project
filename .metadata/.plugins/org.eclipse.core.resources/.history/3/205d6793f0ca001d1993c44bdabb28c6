@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.usersuniqueidentification.UsersUniqueIdentificationMicroServices.serviceImpl;
+
+/**
+ * @author Ratnesh
+ *
+ */
+public class UsersUniqueIdentificationServiceImpl {
+
+}

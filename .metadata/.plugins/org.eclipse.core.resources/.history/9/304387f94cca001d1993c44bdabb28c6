@@ -1,0 +1,6 @@
+package com.userservice.entities;
+
+@Entity
+public class Users {
+
+}

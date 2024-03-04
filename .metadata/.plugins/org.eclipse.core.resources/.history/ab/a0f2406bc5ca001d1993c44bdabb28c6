@@ -1,0 +1,27 @@
+/**
+ * 
+ */
+package com.userscontact.serviceimpl;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
+import com.userscontact.model.request.UsersContactRequestWrapper;
+import com.userscontact.model.response.UsersContactResponseWrapper;
+import com.userscontact.service.UsersContactService;
+
+/**
+ * @author Ratnesh
+ *
+ */
+public class UsersContactServiceImpl implements UsersContactService {
+
+	private static final Logger logger = LogManager.getLogger(UsersContactServiceImpl.class); 
+	
+	@Override
+	public UsersContactResponseWrapper saveUsersContactDetails(UsersContactRequestWrapper requestWrapper) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

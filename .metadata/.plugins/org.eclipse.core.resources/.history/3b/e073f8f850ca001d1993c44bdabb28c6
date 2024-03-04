@@ -1,0 +1,25 @@
+package com.userservice.entities;
+
+import java.util.Date;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+import lombok.Getter;
+import lombok.Setter;
+import lombok.ToString;
+
+@Entity
+@Table(name = "users")
+@Getter
+@Setter
+@ToString
+public class Users {
+
+	@Id
+	
+	private Long id;
+	private String userName;
+	private Date dateTime;
+	private String status;
+}

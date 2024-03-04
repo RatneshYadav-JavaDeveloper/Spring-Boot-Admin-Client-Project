@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.usersprofile.UsersProfileMicroServices.model.response;
+
+/**
+ * @author Ratnesh
+ *
+ */
+public class UsersProfileResponseWrapper {
+
+}

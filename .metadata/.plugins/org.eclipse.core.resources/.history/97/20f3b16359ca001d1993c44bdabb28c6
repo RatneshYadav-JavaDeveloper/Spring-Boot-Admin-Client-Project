@@ -1,0 +1,38 @@
+package com.userservice.serviceimpl;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.userservice.entities.Users;
+import com.userservice.model.request.UsersRequestWrapper;
+import com.userservice.model.response.StatusDescription;
+import com.userservice.model.response.UsersResponseWrapper;
+import com.userservice.repo.UsersRepo;
+import com.userservice.service.UsersService;
+
+@Service
+public class UsersServiceImpl implements UsersService {
+
+	private static final Logger logger = LogManager.getLogger(UsersServiceImpl.class);
+	
+	@Autowired UsersRepo usersRepo;
+	
+	@Override
+	public UsersResponseWrapper getUserDetails(UsersRequestWrapper requestWrapper) {
+		UsersResponseWrapper response = new UsersResponseWrapper();
+		StatusDescription statusDescription = new StatusDescription();
+		try {
+			response.setStatusDescription(statusDescription);
+			Users user = usersRepo.findByMobileNoAndStatus(requestWrapper.getMobileNo(), "1");
+			
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+
+		return response;
+	}
+
+}

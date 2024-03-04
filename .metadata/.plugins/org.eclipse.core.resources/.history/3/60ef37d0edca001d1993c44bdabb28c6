@@ -1,0 +1,4 @@
+server.port=8084
+
+spring.boot.admin.client.url=http://localhost:8080
+spring.boot.admin.client.instance.name=Users-Unique-Identification-Microservices

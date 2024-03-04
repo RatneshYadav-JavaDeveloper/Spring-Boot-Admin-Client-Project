@@ -1,0 +1,10 @@
+package com.userservice.service;
+
+import com.userservice.model.request.UsersRequestWrapper;
+import com.userservice.model.response.UsersResponseWrapper;
+
+public interface UsersService {
+
+	UsersResponseWrapper getUserDetails(UsersRequestWrapper requestWrapper);
+	
+}

@@ -1,0 +1,49 @@
+package com.userservice.serviceimpl;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.userservice.entities.Users;
+import com.userservice.model.request.UsersRequestWrapper;
+import com.userservice.model.response.StatusDescription;
+import com.userservice.model.response.UsersResponseWrapper;
+import com.userservice.repo.UsersRepo;
+import com.userservice.service.UsersService;
+import com.userservice.utils.ConstantManager;
+
+@Service
+public class UsersServiceImpl implements UsersService {
+
+	private static final Logger logger = LogManager.getLogger(UsersServiceImpl.class);
+
+	@Autowired
+	UsersRepo usersRepo;
+
+	@Override
+	public UsersResponseWrapper getUserDetails(UsersRequestWrapper requestWrapper) {
+		UsersResponseWrapper response = new UsersResponseWrapper();
+		StatusDescription statusDescription = new StatusDescription();
+		try {
+			response.setStatusDescription(statusDescription);
+			Users user = usersRepo.findByMobileNoAndStatus(requestWrapper.getMobileNo(), "1");
+			if (user != null) {
+				response.setUser(user);
+				statusDescription.setStatusCode(ConstantManager.Success.getStatusCode());
+				statusDescription.setStatusMessage(ConstantManager.Success.getStatusMessage());
+			} else {
+				statusDescription.setStatusCode(ConstantManager.User_Detail_Not_Found.getStatusCode());
+				statusDescription.setStatusMessage(ConstantManager.User_Detail_Not_Found.getStatusMessage());
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+			statusDescription.setStatusCode(ConstantManager.Internal_Server_Error.getStatusCode());
+			statusDescription.setStatusMessage(ConstantManager.Internal_Server_Error.getStatusMessage());
+		}
+
+		return response;
+	}
+
+}

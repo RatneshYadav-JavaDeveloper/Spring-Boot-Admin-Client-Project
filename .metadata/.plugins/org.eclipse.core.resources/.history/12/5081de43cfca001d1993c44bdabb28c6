@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.usersprofile.UsersProfileMicroServices.serviceimpl;
+
+/**
+ * @author Ratnesh
+ *
+ */
+public class UsersProfileServiceImpl {
+
+}

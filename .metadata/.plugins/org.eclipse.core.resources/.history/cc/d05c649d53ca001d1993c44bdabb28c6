@@ -1,0 +1,21 @@
+package com.userservice.utils;
+
+import lombok.Getter;
+import lombok.RequiredArgsConstructor;
+import lombok.Setter;
+
+@Getter
+@Setter
+@RequiredArgsConstructor
+public class ConstantManager {
+
+	private Integer statusCode;
+	private String statusMessage;
+	
+	
+	private static  SUCCESS = new Const(200,"success");
+	
+	
+	
+	
+}

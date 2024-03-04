@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.usersuniqueidentification.UsersUniqueIdentificationMicroServices.model.response;
+
+/**
+ * @author Ratnesh
+ *
+ */
+public class UsersUniqueIdentificationResponseWrapper {
+
+}

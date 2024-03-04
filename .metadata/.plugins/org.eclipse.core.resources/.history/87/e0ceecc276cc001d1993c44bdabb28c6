@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+package com.userservice.AsyncAPICall;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.web.client.RestTemplate;
+
+/**
+ * @author Ratnesh
+ *
+ */
+public class AsynAPICall {
+
+		
+}

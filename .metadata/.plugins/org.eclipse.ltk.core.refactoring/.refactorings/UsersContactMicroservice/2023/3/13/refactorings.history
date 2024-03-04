@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;UsersContactRequestWrapper.java&apos; to &apos;UserMicroService/src/main/java/com.userservice.model.request&apos;&#x0D;&#x0A;- Original project: &apos;UsersContactMicroservice&apos;&#x0D;&#x0A;- Destination element: &apos;UserMicroService/src/main/java/com.userservice.model.request&apos;&#x0D;&#x0A;- Original element: &apos;com.userscontact.model.request.UsersContactRequestWrapper.java&apos;" description="Copy compilation unit" destination="=UserMicroService/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.userservice.model.request" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.userscontact.model.request{UsersContactRequestWrapper.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1679905398051" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,17 @@
+package com.userservice.model.request;
+
+
+public class UsersRequestWrapper {
+
+	private String mobileNo;
+	private 
+
+	public String getMobileNo() {
+		return mobileNo;
+	}
+
+	public void setMobileNo(String mobileNo) {
+		this.mobileNo = mobileNo;
+	}
+
+}

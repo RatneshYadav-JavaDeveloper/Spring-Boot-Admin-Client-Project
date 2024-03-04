@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.usersuniqueidentification.UsersUniqueIdentificationMicroServices.utils;
+
+/**
+ * @author Ratnesh
+ *
+ */
+public class ConstantManager {
+
+}

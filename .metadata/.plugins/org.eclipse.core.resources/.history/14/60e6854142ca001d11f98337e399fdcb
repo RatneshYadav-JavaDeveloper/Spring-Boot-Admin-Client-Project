@@ -1,0 +1,10 @@
+server.port=8082
+
+#USERS-CONTACT MICROSERVICES REGISTERED HERE WITH SBA
+spring.boot.admin.client.url=http://localhost:8080
+
+#SET DISPLAYNAME
+spring.boot.admin.client.instance.name=Users-Contact-Microservices
+
+management.endpoints.web.exposure.include=*
+

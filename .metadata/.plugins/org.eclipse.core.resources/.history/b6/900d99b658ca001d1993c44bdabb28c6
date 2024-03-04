@@ -1,0 +1,19 @@
+package com.userservice.model.response;
+
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize.Inclusion;
+
+@JsonSerialize(include = Inclusion.NON_NULL)
+public class UsersResponseWrapper {
+
+	private StatusDescription statusDescription;
+
+	public StatusDescription getStatusDescription() {
+		return statusDescription;
+	}
+
+	public void setStatusDescription(StatusDescription statusDescription) {
+		this.statusDescription = statusDescription;
+	}
+
+}

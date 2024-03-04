@@ -1,0 +1,19 @@
+server.port=8003
+
+#JDBC-CONNECTION
+spring.datasource.url=jdbc:mysql://localhost:3306/uidai
+spring.datasource.driver-class-name=com.mysql.jdbc.Driver
+
+spring.datasource.username=root
+spring.datasource.password=root
+
+#hibernate-properties
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.show-sql=true
+
+
+#REGISTERED MICROSERVICES 
+spring.boot.admin.client.url=http://localhost:8080
+
+#Display Name
+spring.boot.admin.client.instance.name=Users-Profile-Microservices

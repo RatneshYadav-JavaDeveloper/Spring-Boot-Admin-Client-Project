@@ -1,0 +1,13 @@
+package com.usersprofile.UsersProfileMicroServices;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class UsersProfileMicroServicesApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(UsersProfileMicroServicesApplication.class, args);
+	}
+
+}

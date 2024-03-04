@@ -1,0 +1,13 @@
+package com.usersuniqueidentification.UsersUniqueIdentificationMicroServices;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class UsersUniqueIdentificationMicroServicesApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(UsersUniqueIdentificationMicroServicesApplication.class, args);
+	}
+
+}

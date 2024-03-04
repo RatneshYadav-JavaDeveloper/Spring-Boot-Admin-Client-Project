@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.usersuniqueidentification.UsersUniqueIdentificationMicroServices.model.request;
+
+/**
+ * @author Ratnesh
+ *
+ */
+public class StatusDescription {
+
+}

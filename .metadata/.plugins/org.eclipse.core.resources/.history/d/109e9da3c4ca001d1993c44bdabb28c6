@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.userscontact.repo;
+
+/**
+ * @author Ratnesh
+ *
+ */
+public interface UsersContactRepo {
+
+}

@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.usersprofile.UsersProfileMicroServices.model.request;
+
+/**
+ * @author Ratnesh
+ *
+ */
+public class UsersProfileRequestWrapper {
+
+}

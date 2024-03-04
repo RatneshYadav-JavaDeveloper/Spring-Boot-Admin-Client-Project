@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.userscontact.entities;
+
+/**
+ * @author Ratnesh
+ *
+ */
+public class UsersContact {
+
+}

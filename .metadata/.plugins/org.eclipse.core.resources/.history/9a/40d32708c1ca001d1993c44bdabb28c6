@@ -1,0 +1,16 @@
+/**
+ * 
+ */
+package com.userscontact.model.response;
+
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize.Inclusion;
+
+/**
+ * @author Ratnesh
+ *
+ */
+@JsonSerialize(include = Inclusion.NON_NULL)
+public class UsersContactResponseWrapper {
+
+}
